@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYSL League</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_menu.css">
+    <link rel="stylesheet" href="./css/style_mediaq.css">
+    <link rel="stylesheet" href="./css/style_modal.css">
+    <link rel="stylesheet" href="./css/game-information.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-big d-sm-none">
+            <img src="./files/logo_nysl.png" alt="" class="logo-big">
+            <div class="titulo-menu">
+                <h1>Northside Youth Soccer League</h1>
+                <ul class="menuLg">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About NYSL</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="active">Game Information</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-small d-md-none">
+                <img src="./files/logo_nysl.png" alt="" class="logo-small">
+                <div class="titulo-menu-small">
+                    <h2>NYSL League</h2>
+                    <ul class="menuSm">
+                        <li><a href="#">Menu</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About NYSL</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#" class="active">Game Information</a></li>
+                                <li><a href="rules.html">Rules</a></li>
+                                <li><a href="registration.html">Registration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <h2 class="indice">Home - Uncomming Events</h2>
+    </header>
+
+    <main>
+        <section class="game-information">
+            <h3>Fall Schedule</h3>
+
+            <table>
+                <caption>* All games take place on Saturday</caption>
+                <thead>
+                    <tr>
+                        <th>SEPTEMBER</th>
+                        <th>Teams</th>
+                        <th>Location</th>
+                        <th>Times</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">9/01</td>
+                        <td>U1and U4</td>
+                        <td>AJ Katzenmaier</td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <!-- <td></td> -->
+                        <td>U3 and U2</td>
+                        <td>Greenbay</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/08</td>
+                        <td>U5 and U6</td>
+                        <td>Howard A Yeager</td>
+                        <td>9:30 a.m</td>
+                    </tr>
+                    <tr>
+                        <!-- <td></td> -->
+                        <td>U6 andU1</td>
+                        <td>Marjorie P Hart</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/15</td>
+                        <td>U2 and U4</td>
+                        <td>North</td>
+                        <td>9:30 a.m</td>
+                    </tr>
+                    <tr>
+                        <!-- <td></td> -->
+                        <td>U3 and U5 </td>
+                        <td>AJ Katzenmaier</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">9/22</td>
+                        <td>U1 and U3</td>
+                        <td>South</td>
+                        <td>9:30 a.m</td>
+                    </tr>
+                    <tr>
+                        <!-- <td></td> -->
+                        <td>U2 and U6</td>
+                        <td>Howard A Yeager</td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td>9/29</td>
+                        <td>U4 and U5</td>
+                        <td>Greenbay</td>
+                        <td>9:30 a.m</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <article>
+                <p>Facility Type: Outdoor</p> 
+                <p>
+                    Additional Information: If deemed necessary by NYSL, games may be shortened
+                    or cancelled due to extreme weather conditions.
+                </p>
+                <p>Please direct all questions to: Michael Randall, League Coordinator</p>
+
+                <div class="foot">
+                    <p>Phone: (630) 690-8132</p>
+                    <p>Email: michael.randall@chisoccer.org</p>
+                </div>
+
+                <div class="fin-game-information">
+                    <h2>Locations</h2>
+                    <div class="enlaces">
+                        <a href="#modal1">AJ Katzenmaier</a>
+                        <a href="#modal2">Greenbay</a>
+                        <a href="#modal3">Howard A Yeager</a>
+                        <a href="#modal4">Marjorie P Hart</a>
+                        <a href="#modal5">North</a>
+                        <a href="#modal6">South</a>
+                    </div>
+
+                    <div id="modal1" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.7159859942!2d-88.01214778988322!3d41.83339250495681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1614690439740!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div id="modal2" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95098.35491397558!2d-88.18351371512186!3d41.85362372383198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e53e2f983efc7%3A0xa03db05b8c116d5a!2sWheaton%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1614690469059!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div id="modal3" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95207.46087818859!2d-88.01665885672341!3d41.78018866239244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e49d4f4e675b9%3A0x89b6f64f162a3a85!2sSam&#39;s%20Club!5e0!3m2!1ses-419!2sar!4v1614690492008!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div  id="modal4" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47590.635491207584!2d-87.93632862805596!3d41.79782568232564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4972b1d5059f%3A0xa4eb2372e203c562!2sWestern%20Springs%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1614690511054!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div  id="modal5" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23792.041592844187!2d-87.79502693730126!3d41.806648420562425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e340f1f70cea1%3A0xa8fea05d4f9f1276!2sForest%20View%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1614690530340!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div  id="modal6" class="locations">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23792.041592844187!2d-87.79502693730126!3d41.806648420562425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e33fef11283d1%3A0x596ac850e3bc9c3!2sStickney%20Water%20Reclamation%20Plant!5e0!3m2!1ses-419!2sar!4v1614690552021!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </article>
+        </section>
+        <aside>
+            <img src="./files/soccer_image1.jpg" alt="" class="fondo">
+        </aside>
+    </main>
+
+    <footer>&copy;NYSL</footer>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------------------------------------------------------------------------------- */
+header{
+    width: 100vw;
+    background: green url("../files/cesped.jpg") top center no-repeat;
+    /* background: green url("../files/fondo_rincon.jpg") top center no-repeat; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+/* ---------------------------------------------------------------------------------------- */
+.logo-big {     width: 15vw; }
+.logo-small {    width: 7vw; }
+/* ---------------------------------------------------------------------------------------- */
+
+.header-big{
+    display: flex;
+    justify-content: space-around;
+}
+        .titulo-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+.header-small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+        .titulo-menu-small{
+            display: flex;
+            flex-direction: column;
+        }
+
+/* ---------------------------------------------------------------------------------------- */
+h1 {
+    font-size: 3.3em;
+}
+
+.indice{
+    padding-left: 1em;
+    color: whitesmoke;
+    background-color: black;
+}
+/* ---------------------------------------------------------------------------------------- */
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+        section{
+            background: green url("../files/cesped.jpg") top center no-repeat;
+            background-size: cover;
+            min-width: 30vw;
+            flex-grow: 1;
+
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: flex-start;
+        }
+
+        aside{
+            background-color: rgb(165, 165, 59);
+        }
+/* ---------------------------------------------------------------------------------- */
+footer{
+    width: 100vw;
+    background-color: rgb(114, 83, 114);
+    display: flex;
+    justify-content: center;
+}

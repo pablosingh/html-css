@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYSL League</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_menu.css">
+    <link rel="stylesheet" href="./css/style_mediaq.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-big d-sm-none">
+            <img src="./files/logo_nysl.png" alt="" class="logo-big">
+            <div class="titulo-menu">
+                <h1>Northside Youth Soccer League</h1>
+                <ul class="menuLg">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About NYSL</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="game-information.html">Game Information</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="#" class="active">Registration</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-small d-md-none">
+                <img src="./files/logo_nysl.png" alt="" class="logo-small">
+                <div class="titulo-menu-small">
+                    <h2>NYSL League</h2>
+                    <ul class="menuSm">
+                        <li><a href="#">Menu</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About NYSL</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="game-information.html">Game Information</a></li>
+                                <li><a href="rules.html">Rules</a></li>
+                                <li><a href="#" class="active">Registration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        <h2 class="indice">Home - Uncomming Events</h2>
+    </header>
+
+    <main>
+        <section class="principal">
+            <form action="./show_data.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fname">Player’s First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <label for="street">Street Address:</label>
+                    <input type="text" name="street" id="street" placeholder="Street">
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" placeholder="City">
+
+                    <label for="zip">Zip Code</label>
+                    <input type="text" name="zip" id="zip">
+                    
+                    <label for="birth">Birth Date(mm/dd/yyyy): </label>
+                    <input type="date" name="birth" id="birth">
+                    
+                    <p>Gender</p>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <label for="grade">Grade</label>
+                    <select name="grade" id="grade">
+                        <option value="" selected="true" disabled="disabled">Select</option>
+                        <option value="pre-school">Pre-School</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <label for="Closest">Closest School: </label>
+                    <select name="Closest" id="Closest">
+                        <option value="" selected="true" disabled="disabled">Select</option>
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay </option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>What position(s) do you normally play?</legend>
+
+                    <label for="check-all-that-apply">check all that apply</label>
+                    <select name="check-all-that-apply" id="check-all-that-apply">
+                        <option value="" selected="true" disabled="disabled">Select</option>
+                        <option value="Forward">Forward</option>
+                        <option value="Defense">Defense</option>
+                        <option value="Midfield">Midfield</option>
+                        <option value="Goalkeeper">Goalkeeper</option>
+                    </select>
+
+                    <label for="Uniform Size">Uniform Size:</label>
+                    <select name="Uniform Size" id="Uniform Size">
+                        <option value="" selected="true" disabled="disabled">Select</option>
+                        <option value="Youth Small">Youth Small</option>
+                        <option value="Youth Medium">Youth Medium</option>
+                        <option value="Youth Large">Youth Large</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra-Large">Extra-Large</option>
+                        <option value="Small">Small</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+                        the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with
+                        soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,
+                        I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel
+                        and volunteers,including the facilities used for practices and games, against any claim by or on behalf of
+                        the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from
+                        NYSL sponsored activities,which transportation
+                    </p>
+                    <p>
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge
+                        that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <label for="sign">Parent/GuardianSignature: </label>
+                    <input type="checkbox" name="sign" id="sign">
+                    
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </fieldset>
+
+                <input type="submit" value="Submit">
+                <!-- <button>Submit</button> -->
+            </form>
+        </section>
+        <aside>
+            <img src="./files/soccer_image1.jpg" alt="" class="fondo">
+        </aside>
+    </main>
+
+    <footer>&copy;NYSL</footer>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+
+
+.menuLg{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-right: 2em;
+}
+.menuLg a{
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(42, 42, 228);
+    border-radius: 00.2em;
+}
+.menuLg .active{
+    background-color: green;
+}
+.menuLg a:hover{
+    background-color: chartreuse;
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+.menuSm{
+    list-style: none;
+}
+
+.menuSm a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(42, 42, 228);
+    border-radius: 0.2em;
+    padding: 0.1em;
+    padding: 0.1em;
+}
+
+/* --------------------------------------------------------------------- */
+.submenu{
+    list-style: none;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s;
+    border-radius: 00.2em;
+}
+.submenu li {
+    display: block;
+    background-color: rgb(42, 42, 228);
+    /* border-radius: 00.2em; */
+
+}
+.submenu li a{
+    text-decoration: none;
+}
+
+.menuSm li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.submenu .active{
+    background-color: green;
+}
+.submenu a:hover{
+    background-color: chartreuse;
+}

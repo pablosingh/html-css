@@ -1,0 +1,13 @@
+
+/* SM */
+@media (max-width: 768px) {
+    .d-sm-none{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-md-none{
+        display: none;
+    }
+}

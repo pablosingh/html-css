@@ -1,0 +1,41 @@
+
+.game-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.game-information h3{
+    font-size: 2em;
+}
+.game-information table{
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-top: 1em ;
+    border: 1px solid black;
+}
+.game-information caption{
+    font-size: 1.3em;
+    border: 1px solid black;
+}
+
+.game-information thead *{
+    background-color: rgb(168, 197, 4);
+    font-size: 1.1em;
+    border: 1px solid black;
+}
+
+.game-information td{
+    padding: 0.5em 4em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.game-information table tr:nth-child(odd) {
+    background-color: rgb(62, 209, 62);
+}
+
+.game-information table tr:hover {
+    background-color:chartreuse;
+}
