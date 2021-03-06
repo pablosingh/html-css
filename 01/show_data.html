@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style_menu.css">
     <link rel="stylesheet" href="./css/style_mediaq.css">
+    <link rel="stylesheet" href="./css/show_data.css">
 </head>
 
 <body>
@@ -50,32 +51,35 @@
     </header>
 
     <main>
-        <section class="principal">
-            <table border="1" align=center width="226" class="show-data">
-                <tr>
-                  <th align="center">Form Field</th>
-                  <th align="center">Field Value</th>
-                </tr>
-            
-                <script language="javascript">
-                  var args = location.search.substr(1).split('&');
-                  for (var i = 0; i < args.length; ++i) {
-                    var parts = args[i].split('=');
-                    if (parts != null) {
-                      var field = parts[0];
-                      var value = parts[1];
-                      if (value == null) {
-                        value = "null"
-                      }
-                      else {
-                        value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
-                      }
-            
-                      document.writeln('<tr><td align="center">' + field + '</td>');
-                      document.writeln('<td align="center">' + value + '</td></tr>');
+        <section class="show_data">
+            <table border="1" align=center width="500" class="show-data">
+                <thead>
+                    <tr>
+                        <th align="center">Form Field</th>
+                        <th align="center">Field Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <script language="javascript">
+                    var args = location.search.substr(1).split('&');
+                    for (var i = 0; i < args.length; ++i) {
+                        var parts = args[i].split('=');
+                        if (parts != null) {
+                        var field = parts[0];
+                        var value = parts[1];
+                        if (value == null) {
+                            value = "null"
+                        }
+                        else {
+                            value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                        }
+                
+                        document.writeln('<tr><td align="center">' + field + '</td>');
+                        document.writeln('<td align="center">' + value + '</td></tr>');
+                        }
                     }
-                  }
-                </script>
+                    </script>
+                </tbody>
             </table>
         </section>
         <aside>

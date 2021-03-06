@@ -1,0 +1,23 @@
+.show_data{
+    align-items: center;
+    padding: 1em;
+}
+
+.show_data thead *{
+    background-color: rgb(168, 197, 4);
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.show_data table tbody tr:nth-child(even) {
+    background-color: rgb(62, 209, 62);
+}
+
+.show_data table tbody tr td {
+    border-radius: 5px;
+}
+
+.show_data table tbody tr:hover {
+    background-color: chartreuse;
+}

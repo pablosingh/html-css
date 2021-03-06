@@ -32,7 +32,10 @@
     border: 1px solid black;
 }
 
-.game-information table tr:nth-child(odd) {
+/* .game-information table tr:nth-child(odd) {
+    background-color: rgb(62, 209, 62);
+} */
+.game-information table tr:nth-child(even) {
     background-color: rgb(62, 209, 62);
 }
 

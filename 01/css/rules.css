@@ -1,0 +1,20 @@
+.rules dl {
+    color: white;
+    margin: 2em 3em;
+}
+
+.rules dt{
+    text-decoration: underline;
+    font-size: 2em;
+}
+.rules dd{
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-bottom: 2.1em;
+}
+
+/* .rules li {
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-bottom: 2.1em;
+} */
