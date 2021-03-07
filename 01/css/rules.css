@@ -1,6 +1,6 @@
 .rules dl {
-    color: white;
-    margin: 2em 3em;
+    /* color: white; */
+    margin: 1.0em 1em;
 }
 
 .rules dt{
@@ -8,13 +8,20 @@
     font-size: 2em;
 }
 .rules dd{
+    padding: 0.5em 0.5em;
     margin-left: 1em;
     font-size: 1.5em;
-    margin-bottom: 2.1em;
 }
 
-/* .rules li {
-    margin-left: 1em;
-    font-size: 1.5em;
-    margin-bottom: 2.1em;
-} */
+.interno {
+    margin: 0.5em 1em;
+}
+
+.mg-left {
+    margin-left: 2em;
+}
+
+.mg-top-bottom {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

@@ -73,6 +73,8 @@ main{
         }
 
         aside{
+            background: green url("../files/cesped.jpg") top center no-repeat;
+            background-size: cover;
             background-color: rgb(165, 165, 59);
         }
 /* ---------------------------------------------------------------------------------- */
